@@ -150,3 +150,48 @@ footer {
 .inline-block {
     display: inline-block;
 }
+
+.cv-pdf i {
+    font-size:18px;
+    color: #fafafa;
+    text-align:center;
+    padding-left:5px;
+    transition: all 0.35s ease-in-and-out;
+    -moz-transition: all 0.35s ease-in-and-out;
+    -webkit-transition: all 0.35s ease-in-and-out;
+    -o-transition: all 0.35s ease-in-and-out;
+
+
+}
+
+.cv-pdf i:hover{
+    color:#e84610;
+}
+
+.social-links {
+    padding-buttom: 15px;
+}
+
+.social-links li a i {
+    width:32px;
+    height:32px;
+    padding:12px 0;
+    border-radius:50%;
+    font-size:13px;
+    line-height:7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-and-out;
+    -moz-transition: all 0.35s ease-in-and-out;
+    -webkit-transition: all 0.35s ease-in-and-out;
+    -o-transition: all 0.35s ease-in-and-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
